@@ -5,12 +5,15 @@
 npm install
 ```
 
-1 - Create a Wallet on
- * https://metamask.io/
-2 - Create Infaru Rinkeby Endpoint
- * https://infura.io/
+1. Create a Wallet on
+    * https://metamask.io/
 
-3 -  Create .env  variable with constants
+2. Create Infaru Rinkeby Endpoint
+    * https://infura.io/
+
+3. Create .env  variable with constants
+
+4. Enjoy !!
 
 ```
 MNEMONIC :""
