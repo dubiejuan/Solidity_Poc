@@ -1,16 +1,21 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
-
+require('dotenv').config()
 const { abi, evm } = require('./compile');
 
-provider = new HDWalletProvider(
-  'REPLACE_WITH_YOUR_MNEMONIC',
-  'REPLACE_WITH_YOUR_INFURA_URL'
-);
 
-const web3 = new Web3(provider);
 
 const deploy = async () => {
+
+  const provider = new HDWalletProvider({
+    mnemonic: {
+      phrase: process.env.MNEMONIC
+    },
+    providerOrUrl:process.env.INFURA_URL
+  });
+  
+  const web3 = new Web3(provider);
+
   const accounts = await web3.eth.getAccounts();
 
   console.log('Attempting to deploy from account', accounts[0]);
