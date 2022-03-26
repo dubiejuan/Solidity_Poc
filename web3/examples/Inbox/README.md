@@ -24,12 +24,11 @@ INFURA_URL: ""
 4. Enjoy !!
 
 
-## Comand
+## Comands
 ```
 npm run test
 ```
 
-## Comand
 ```
 npm run deploy
 ```
