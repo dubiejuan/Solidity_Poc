@@ -13,12 +13,16 @@ npm install
 
 3. Create .env  variable with constants
 
-4. Enjoy !!
+main
 
 ```
 MNEMONIC :""
 INFURA_URL: ""
 ```
+
+
+4. Enjoy !!
+
 
 ## Comand
 ```
@@ -39,5 +43,5 @@ npm run deploy
 
 
 #### By
-off_azureuz
+off_azureuz :upside_down_face:
 
